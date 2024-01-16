@@ -1,0 +1,51 @@
+
+#body-property {
+    background-image:url('body-bg.jpg');
+    
+}
+#heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    font-size: 40px;
+    
+}
+
+#calculater {
+    
+     border: 1px solid rgb(81, 46, 46);
+     border-radius: 5px;
+     width: 400px;
+     height: 630px;
+     position: absolute;
+     margin-top: 50px;
+     margin-left: 550px;
+     margin-bottom: 50px;
+     background-color:rgb(233, 207, 12);
+     
+     
+}
+input{
+    font-size: 40px;
+}
+#display {
+    margin-bottom: 10px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 93%;
+    height: 45px;
+    font-size: 45 px;
+    background-color: rgb(192, 222, 222);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+    font-size: 45px;
+    width: 105px;
+    height: 65px;
+    margin: 3px;
+    color:white;
+    background-color: rgb(29, 116, 116);
+}
